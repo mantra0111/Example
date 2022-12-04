@@ -1,0 +1,89 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#first-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 0px 32px 0px 0px;
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px black ;
+}
+
+
+.top-side{
+    height: 40%;
+    border-radius: 16px 16px 0px 0px;
+    background-color: #8eddda;
+}
+
+.profile-picture{
+    height: 80%;
+    width: auto;
+
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 22%;
+    padding: 10px;
+    background-color: white;
+}
+
+
+.bottom-side{
+    height: 100%;
+}
+
+.user-info{
+    height: 100%;
+    height: 35% ;
+    display: flex;
+
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user-age{
+    color: #9f9f9f;
+}
+.user-name{
+    margin: 10px 0px;
+}
+.user-location{
+    margin: 15px 0px;
+    color: #9f9f9f;
+}
+
+.card-botton-splitting-line{
+    margin: 20px 0px;
+}
+
+.user-stats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-stat-holder{
+    margin: 0px 20px;
+}
+
+.user-stat-name{
+    color: #9f9f9f;
+}
+.user-stat-count{
+    font-weight: bold;
+    text-align: center;
+}
